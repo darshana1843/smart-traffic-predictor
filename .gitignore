@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Trained models (run scripts/train.py to generate)
+models/saved/*.pkl
+models/saved/*.pt
+models/saved/*.bin
+!models/saved/.gitkeep
+
+# Generated data
+data/processed/*.csv
+data/processed/*.parquet
+data/raw/*.csv
+data/raw/*.json
+
+# Build
+dist/
+build/
+*.egg-info/
